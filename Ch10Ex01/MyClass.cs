@@ -33,6 +33,9 @@ namespace Ch10Ex01
         private int myDoubledInt = 5;
         public int MyDoubledIntProp => myDoubledInt * 2;
 
+        public string MyString { get => myString; set => myString = value; }
+
+        private string myString;
 
     }
 }

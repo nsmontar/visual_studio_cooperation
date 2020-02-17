@@ -33,8 +33,15 @@ namespace Ch10Ex01
             WriteLine("myObj.ToString() Output.");
             WriteLine("\nmyDoubledIntProp = 5...");
             WriteLine($"Getting myDoubledIntProp of 5 is {myObj.MyDoubledIntProp}");
+            var tuple = (1, "Neno", myObj);
+            WriteLine();
+            WriteLine(tuple.Item1);
+            WriteLine(tuple.Item2);
+            WriteLine(tuple.Item3);
+            var location = new Location(48.137154, 11.576124);
+            (double latitude, double longitude) = location;
+            WriteLine($"Lat, Lon: {latitude}, {longitude}");
             ReadKey();
-
         }
     }
 }
