@@ -34,6 +34,7 @@ namespace Ch10Ex01
             WriteLine("\nmyDoubledIntProp = 5...");
             WriteLine($"Getting myDoubledIntProp of 5 is {myObj.MyDoubledIntProp}");
             ReadKey();
+
         }
     }
 }
